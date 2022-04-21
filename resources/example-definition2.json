@@ -1,0 +1,361 @@
+[
+  {
+    "ns": "clojure.core",
+    "name": "def",
+    "type": "var",
+    "see-alsos": [
+      {
+        "created-at": 1289040035000,
+        "author": {
+          "login": "boxie",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/bfc366066e3c1beee98f3a6666728169?r=PG&default=identicon"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "defn",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "542692eaf6e94c6970521b15"
+      },
+      {
+        "created-at": 1289040039000,
+        "author": {
+          "login": "boxie",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/bfc366066e3c1beee98f3a6666728169?r=PG&default=identicon"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "fn",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "542692eaf6e94c6970521b16"
+      },
+      {
+        "created-at": 1289040051000,
+        "author": {
+          "login": "boxie",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/bfc366066e3c1beee98f3a6666728169?r=PG&default=identicon"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "defmacro",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "542692eaf6e94c6970521b17"
+      },
+      {
+        "created-at": 1289040055000,
+        "author": {
+          "login": "boxie",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/bfc366066e3c1beee98f3a6666728169?r=PG&default=identicon"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "defmulti",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "542692eaf6e94c6970521b18"
+      },
+      {
+        "created-at": 1421928720188,
+        "author": {
+          "login": "Gitward",
+          "account-source": "github",
+          "avatar-url": "https://avatars.githubusercontent.com/u/8510849?v=3"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "defonce",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "54c0e910e4b0e2ac61831cce"
+      },
+      {
+        "created-at": 1426949770053,
+        "author": {
+          "login": "ryoakg",
+          "account-source": "github",
+          "avatar-url": "https://avatars.githubusercontent.com/u/23413?v=3"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "ns-unmap",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "550d868ae4b056ca16cfecf8"
+      }
+    ],
+    "examples": [
+      {
+        "author": {
+          "login": "boxie",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/bfc366066e3c1beee98f3a6666728169?r=PG&default=identicon"
+        },
+        "editors": [
+          {
+            "login": "zk",
+            "account-source": "github",
+            "avatar-url": "https://avatars.githubusercontent.com/u/7194?v=2"
+          }
+        ],
+        "body": "user=> (def my-val 5)\n#'user/my-val\n\nuser=> my-val\n5",
+        "created-at": 1289040027000,
+        "updated-at": 1411962925119,
+        "_id": "542692cfc026201cdc326e95"
+      },
+      {
+        "author": {
+          "login": "boxie",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/bfc366066e3c1beee98f3a6666728169?r=PG&default=identicon"
+        },
+        "editors": [],
+        "body": "user=> (def my-function (fn [x] (* x x x)))\n#'user/my-function\nuser=> (my-function 4)\n64",
+        "created-at": 1289040110000,
+        "updated-at": 1289040110000,
+        "_id": "542692cfc026201cdc326e96"
+      },
+      {
+        "author": {
+          "login": "puredanger",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/89c8afd032c7b3473f67c9b00d3acd5a?r=PG&default=identicon"
+        },
+        "editors": [
+          {
+            "login": "puredanger",
+            "account-source": "clojuredocs",
+            "avatar-url": "https://www.gravatar.com/avatar/89c8afd032c7b3473f67c9b00d3acd5a?r=PG&default=identicon"
+          },
+          {
+            "login": "pjlegato",
+            "account-source": "clojuredocs",
+            "avatar-url": "https://www.gravatar.com/avatar/4ce55cfd8b3ae2f63f5ecbc8fc1c05d4?r=PG&default=identicon"
+          },
+          {
+            "login": "pjlegato",
+            "account-source": "clojuredocs",
+            "avatar-url": "https://www.gravatar.com/avatar/4ce55cfd8b3ae2f63f5ecbc8fc1c05d4?r=PG&default=identicon"
+          },
+          {
+            "login": "zk",
+            "account-source": "github",
+            "avatar-url": "https://avatars.githubusercontent.com/u/7194?v=2"
+          }
+        ],
+        "body": ";; This is an example of setting a docstring during a def.\n;; (Note that the clojure.repl namespace which contains the\n;;  doc function is not loaded by default in Emacs' SLIME mode.)\n\nuser> (def ted-nugent \"The nuge rocks\" 123)\n#'user/ted-nugent\nuser> (doc ted-nugent)\n-------------------------\nuser/ted-nugent\n  The nuge rocks\nuser> ted-nugent\n123\n",
+        "created-at": 1300830366000,
+        "updated-at": 1411962895678,
+        "_id": "542692cfc026201cdc326e97"
+      },
+      {
+        "author": {
+          "login": "jamesqiu",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/bc1268deaa7f2e78fe2b5ea76e6481d8?r=PG&default=identicon"
+        },
+        "editors": [
+          {
+            "login": "jamesqiu",
+            "account-source": "clojuredocs",
+            "avatar-url": "https://www.gravatar.com/avatar/bc1268deaa7f2e78fe2b5ea76e6481d8?r=PG&default=identicon"
+          },
+          {
+            "login": "zk",
+            "account-source": "github",
+            "avatar-url": "https://avatars.githubusercontent.com/u/7194?v=2"
+          }
+        ],
+        "body": ";; give function another name\nuser=> (def sys-map map)\n\n;; give macro another name\nuser=> (def #^{:macro true} sys-loop #'loop)",
+        "created-at": 1313515810000,
+        "updated-at": 1411962917894,
+        "_id": "542692cfc026201cdc326e9b"
+      },
+      {
+        "updated-at": 1518778836326,
+        "created-at": 1518778836326,
+        "author": {
+          "login": "ibercode",
+          "account-source": "github",
+          "avatar-url": "https://avatars0.githubusercontent.com/u/31028993?v=4"
+        },
+        "body": ";;Assign a Function to a Variable\n\n(def say-hello\n (fn [name]\n   (str \"Hello \" name)))\n\n(say-hello \"World\")\n;;\"Hello World\"\n\n\n;;the same but using an anonymous function\n(def say-hello\n #(str \"Hello \" %))\n\n(say-hello \"World\")\n;;\"Hello World\"\n\n\n;;anonymous function using two arguments\n(def hello-doc #(str \"Hello \" %1 %2))\n\n(hello-doc \"Dr.\" \"House\")\n;;\"Hello Dr.House\"\n\n",
+        "_id": "5a86b9d4e4b0316c0f44f8c6"
+      },
+      {
+        "updated-at": 1640101185494,
+        "created-at": 1640101185494,
+        "author": {
+          "login": "deadghost",
+          "account-source": "github",
+          "avatar-url": "https://avatars.githubusercontent.com/u/1156996?v=4"
+        },
+        "body": ";; Private var\n(def ^:private foobar\n  \"I am the docstring.\"\n  \"I am the value.\")\n",
+        "_id": "61c1f541e4b0b1e3652d758c"
+      }
+    ],
+    "notes": null,
+    "arglists": [],
+    "doc": "Creates and interns or locates a global var with the name of symbol and a\nnamespace of the value of the current namespace (*ns*). See\nhttp://clojure.org/special_forms for more information.",
+    "library-url": "https://github.com/clojure/clojure",
+    "href": "/clojure.core/def"
+  },
+  {
+    "ns": "clojure.core",
+    "name": "if",
+    "type": "var",
+    "see-alsos": [
+      {
+        "created-at": 1302510837000,
+        "author": {
+          "login": "Havvy",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/e799a79441c7543be48562403411cd13?r=PG&default=identicon"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "cond",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "542692ebf6e94c6970521e12"
+      },
+      {
+        "created-at": 1311797747000,
+        "author": {
+          "login": "OnesimusUnbound",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/2fa4c391db0d2d1744cc2cd0d787dd3d?r=PG&default=identicon"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "when",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "542692ebf6e94c6970521e13"
+      },
+      {
+        "created-at": 1334293230000,
+        "author": {
+          "login": "jafingerhut",
+          "account-source": "github",
+          "avatar-url": "https://avatars.githubusercontent.com/u/109629?v=3"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "if-let",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "542692ebf6e94c6970521e14"
+      },
+      {
+        "created-at": 1340541172000,
+        "author": {
+          "login": "jhulten",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/b15299ac3f0bf5347d14a1232338b1cd?r=PG&default=identicon"
+        },
+        "to-var": {
+          "ns": "clojure.core",
+          "name": "if-not",
+          "library-url": "https://github.com/clojure/clojure"
+        },
+        "_id": "542692ebf6e94c6970521e15"
+      },
+      {
+        "created-at": 1545243343724,
+        "author": {
+          "login": "jafingerhut",
+          "account-source": "github",
+          "avatar-url": "https://avatars2.githubusercontent.com/u/109629?v=4"
+        },
+        "to-var": {
+          "library-url": "https://github.com/clojure/clojure",
+          "name": "when-let",
+          "ns": "clojure.core"
+        },
+        "_id": "5c1a8acfe4b0ca44402ef5ed"
+      }
+    ],
+    "examples": [
+      {
+        "author": {
+          "login": "Victor",
+          "account-source": "clojuredocs",
+          "avatar-url": "https://www.gravatar.com/avatar/bc41ebab54cc0e0fbe99d753876d45ce?r=PG&default=identicon"
+        },
+        "editors": [
+          {
+            "login": "zk",
+            "account-source": "github",
+            "avatar-url": "https://avatars.githubusercontent.com/u/7194?v=2"
+          }
+        ],
+        "body": "(defn is-small? [number]\n  (if (< number 100) \"yes\" \"no\"))\n\nuser=> (is-small? 50)\n\"yes\"\n\nuser=> (is-small? 500)\n\"no\"",
+        "created-at": 1288222254000,
+        "updated-at": 1288871229000,
+        "_id": "542692cfc026201cdc326e9d"
+      },
+      {
+        "author": {
+          "login": "jafingerhut",
+          "account-source": "github",
+          "avatar-url": "https://avatars.githubusercontent.com/u/109629?v=3"
+        },
+        "editors": [
+          {
+            "login": "jafingerhut",
+            "account-source": "github",
+            "avatar-url": "https://avatars.githubusercontent.com/u/109629?v=3"
+          },
+          {
+            "login": "jafingerhut",
+            "account-source": "github",
+            "avatar-url": "https://avatars.githubusercontent.com/u/109629?v=3"
+          },
+          {
+            "login": "jafingerhut",
+            "account-source": "github",
+            "avatar-url": "https://avatars.githubusercontent.com/u/109629?v=3"
+          }
+        ],
+        "body": ";; Be aware that the only two values considered \"logical false\" in Clojure\n;; are nil and false, where Clojure's \"false\" is the Java value Boolean/FALSE\n;; under the hood.  Everything else is \"logical true\".  Particularly surprising\n;; may be that the Java Object with class Boolean and value (Boolean. false) is\n;; considered logical true.\n\n;; This notion of logical true and logical false holds for at least the following\n;; conditional statements in Clojure: if, cond, when, if-let, when-let.\n;; It also applies to functions like filter, remove, and others that use\n;; these conditional statements in their implementation.\n\n;; nil and false are logical false\nuser=> (if nil \"logical true\" \"logical false\")\n\"logical false\"\nuser=> (if false \"logical true\" \"logical false\")\n\"logical false\"\n;; Boolean/FALSE is how Clojure's \"false\" is represented internally.\nuser=> (if Boolean/FALSE \"logical true\" \"logical false\")\n\"logical false\"\n\n;; Everything else that is the value of the condition, including numbers (even 0),\n;; characters, strings (even the empty string), vectors, maps, _and_ a freshly\n;; constructed Boolean class object (Boolean. false), is logical true.\n\nuser=> (if 0 \"logical true\" \"logical false\")\n\"logical true\"\n;; A vector containing nil is not the same as nil.\nuser=> (if [nil] \"logical true\" \"logical false\")\n\"logical true\"\nuser=> (if (first [nil]) \"logical true\" \"logical false\")\n\"logical false\"\n\n;; Bad idea even in Java.  See below for more details.\nuser=> (if (Boolean. false) \"logical true\" \"logical false\")\n\"logical true\"\n\n;; Java documentation itself warns:\n;; Note: It is rarely appropriate to use this constructor. Unless a new instance\n;; is required, the static factory valueOf(boolean) is generally a better choice.\n;; It is likely to yield significantly better space and time performance.\n\n;; (boolean x) converts a value to a primitive boolean.  It converts nil, false,\n;; and (Boolean. false) to primitive false.\nuser=> (if (boolean (Boolean. false)) \"logical true\" \"logical false\")\n\"logical false\"\n\n;; (Boolean/valueOf <val>) is similar:\nuser=> (if (Boolean/valueOf (Boolean. false)) \"logical true\" \"logical false\")\n\"logical false\"\n",
+        "created-at": 1334293223000,
+        "updated-at": 1422027142917,
+        "_id": "542692d6c026201cdc3270cc"
+      },
+      {
+        "updated-at": 1603184553184,
+        "created-at": 1603184553184,
+        "author": {
+          "login": "agodde",
+          "account-source": "github",
+          "avatar-url": "https://avatars3.githubusercontent.com/u/18694682?v=4"
+        },
+        "body": ";; if vs. when\n\n;; An if without an else branch...\nuser=> (if true \"then branch\")\n\"then branch\"\nuser=> (if false \"then branch\")\nnil\n\n;; ...is the same as when.\nuser=> (when true \"then branch\")\n\"then branch\"\nuser=> (when false \"then branch\")\nnil\n\n;; Use of when instead of if is recommended in cases where you do not need the else branch.",
+        "_id": "5f8ea7a9e4b0b1e3652d73e6"
+      }
+    ],
+    "notes": [
+      {
+        "author": {
+          "login": "kimtg",
+          "account-source": "github",
+          "avatar-url": "https://avatars.githubusercontent.com/u/7685905?v=3"
+        },
+        "updated-at": 1441174250945,
+        "created-at": 1441174250945,
+        "body": "```\nuser=> (doc if)\n-------------------------\nif\n  (if test then else?)\nSpecial Form\n  Evaluates test. If not the singular values nil or false,\n  evaluates and yields then, otherwise, evaluates and yields else. If\n  else is not supplied it defaults to nil.\n\n  Please see http://clojure.org/special_forms#if\n```\nhttp://clojure.org/special_forms#if",
+        "_id": "55e692eae4b0efbd681fbb92"
+      }
+    ],
+    "arglists": [],
+    "doc": "Evaluates test.",
+    "library-url": "https://github.com/clojure/clojure",
+    "href": "/clojure.core/if"
+  }
+]
